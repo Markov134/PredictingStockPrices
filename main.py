@@ -14,8 +14,6 @@ def get_data(filename):
             try:
                 dates.append(i)
                 prices.append(float(row[1]))
-            #dates.append(int(row[0].split('-')[0]))
-            #prices.append(float(row[1]))
             except:
                 continue
     return
